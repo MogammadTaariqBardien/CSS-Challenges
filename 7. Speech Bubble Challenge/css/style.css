@@ -1,0 +1,25 @@
+p.speech {
+  	position: relative;
+  	width: 200px;
+  	height: 100px;
+  	text-align: center;
+  	line-height: 100px;
+  	background-color:  blue;
+  	border: 8px solid  blue;
+  	margin-left: 100px;
+  	border-radius: 20%;
+}
+
+p.speech:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 31px solid transparent;
+	border-right-color: blue;
+	border-left: 0;
+	margin-top: -31px;
+	margin-left: -31px;
+}

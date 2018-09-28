@@ -1,0 +1,48 @@
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#form >label{
+    color: blueviolet;
+}
+
+::-webkit-input-placeholder {
+    color: blue;
+}
+
+button {
+    background-color: chartreuse;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+}
+
+.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+a:link {
+    color: aqua;
+}
+
+a:hover {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+
+a:active {
+    color: blueviolet;
+}
